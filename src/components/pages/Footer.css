@@ -1,0 +1,144 @@
+.footer {
+  bottom: 0;
+  /* background: linear-gradient(to right,#f33b3b,#7ed9e5); */
+  background: url(../assets/img/footer.png);
+  /* background: linear-gradient(to right,#26eff6,#fa1414); */
+  width: 100%;
+  color: #fff;
+  padding: 100px 0 30px;
+  /* border-top-left-radius: 125px; */
+  font-size: 13px;
+  line-height: 20px;
+}
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col {
+  flex-basis: 25%;
+  padding: 10px;
+}
+.col:nth-child(2),
+.col:nth-child(3) {
+  flex-basis: 15%;
+}
+.logo {
+  width: 80px;
+  margin-bottom: 30px;
+}
+
+.col h3 {
+  width: fit-content;
+  margin-top: -50px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.email-id {
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+.lii {
+  list-style: none;
+  margin-bottom: 12px;
+  position: relative;
+}
+.aa {
+  text-decoration: none;
+  color: black;
+}
+.formm {
+  padding-bottom: 15px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+.formm .far {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.formm input {
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+}
+.formm button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.formm button .fas {
+  font-size: 16px;
+  color: #ccc;
+}
+.social-icons .fab {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+}
+.copyright {
+  text-align: center;
+  margin-bottom: -20px;
+}
+.underline {
+  width: 100%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  overflow: hidden;
+}
+.underline span {
+  width: 15px;
+  height: 100%;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+@keyframes moving {
+  0% {
+    left: -20px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  footer {
+    bottom: unset;
+  }
+  .col {
+    flex-basis: 100%;
+    padding: 10px;
+  }
+  .col:nth-child(2),
+  .col:nth-child(3) {
+    flex-basis: 100%;
+  }
+}

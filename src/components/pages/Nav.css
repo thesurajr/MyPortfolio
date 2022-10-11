@@ -1,0 +1,37 @@
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background:rgb(42, 49, 72);
+}
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.right{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 20%;
+}
+.right form input{
+  padding: 8px;
+  outline: none;
+}
+.right form button{
+  padding: 8px;
+}
+.right form button:hover{
+  padding: 8px;
+  background: green;
+  color: #fff;
+}
+.right form{
+  display: flex;
+  /* justify-content: space-around; */
+}

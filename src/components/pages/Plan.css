@@ -1,0 +1,19 @@
+.shadow3{
+    list-style: none;
+    border: 1px solid black;
+    width: 52%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+.btn4{
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 10px 30px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+
+}
